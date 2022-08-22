@@ -1,0 +1,2 @@
+
+int twice(int n);
