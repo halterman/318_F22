@@ -76,6 +76,7 @@ int main() {
     std::cout << "     Size     is_ascending1  is_ascending2\n";
     std::cout << "------------------------------------------\n";
     for (int i = 0; i < 100000; i += 5000) { 
+        // Make a vector containing the elements 0, 1, 2, 3, ..., i - 1
         std::vector<int> v(i);
         std::iota(v.begin(), v.end(), 0);
         std::cout << std::fixed << std::setprecision(7)
@@ -85,6 +86,7 @@ int main() {
     }
     std::cout << '\n';
     for (int i = 100000; i < 1000000; i += 10000) { 
+        // Make a vector containing the elements 0, 1, 2, 3, ..., i - 1
         std::vector<int> v(i);
         std::iota(v.begin(), v.end(), 0);
         std::cout << std::fixed << std::setprecision(7)
