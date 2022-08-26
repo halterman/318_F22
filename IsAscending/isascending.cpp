@@ -73,7 +73,7 @@ int main() {
     //std::cout << vec3 << "  " << is_ascending2(vec3) << '\n';
 
     std::cout << "------------------------------------------\n";
-    std::cout << "        n     is_ascending1  is_ascending2\n";
+    std::cout << "     Size     is_ascending1  is_ascending2\n";
     std::cout << "------------------------------------------\n";
     for (int i = 0; i < 100000; i += 5000) { 
         std::vector<int> v(i);
