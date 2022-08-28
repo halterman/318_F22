@@ -5,6 +5,7 @@
 #include <functional>
 #include <numeric>
 #include <algorithm>
+#include <thread>
 
 #include "stopwatch.h"
 
