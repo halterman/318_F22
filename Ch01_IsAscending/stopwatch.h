@@ -3,6 +3,7 @@
 #include <chrono>
 
 class Stopwatch {
+    // Private status type
     // Ready: Stopwatch is ready to begin timing
     // Running: Timing in progress
     // Stopped: Timing is stopped and elapsed time is available
