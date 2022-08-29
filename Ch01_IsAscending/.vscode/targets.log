@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Aug 24 09:28:29 2022
+# Make data base, printed on Mon Aug 29 09:46:29 2022
 
 # Variables
 
@@ -31,7 +31,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /mnt/c/Users/rick/Documents/Code/ClassCodeF22/318_F22/IsAscending
+PWD = /home/rick/Documents/Code/c/ClassCodeF22/318_F22/Ch01_IsAscending
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -49,7 +49,7 @@ LANG = C
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /mnt/c/Users/rick/Documents/Code/ClassCodeF22/318_F22/IsAscending
+CURDIR := /home/rick/Documents/Code/c/ClassCodeF22/318_F22/Ch01_IsAscending
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
@@ -127,7 +127,7 @@ _ = /mnt/c/Users/rick/AppData/Local/Programs/Microsoft VS Code/bin/code
 # environment
 XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-b4dadcd2-dc23-4be7-a6d1-d2efa4c8d8d9.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-f3119716-c872-4c4a-a909-3dc6206bd4ac.sock
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -155,9 +155,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 64, inode 27021597764286321): 9 files, no impossibilities.
+# . (device 2080, inode 254437): 8 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -207,12 +207,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 177 B / avg = 10 B
-# current buf: size = 8162 B / used = 177 B / count = 17 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 161 B / avg = 10 B
+# current buf: size = 8162 B / used = 161 B / count = 16 / avg = 10 B
 
-# strcache performance: lookups = 20 / hit rate = 15%
+# strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=0/20=0%
-# Finished Make data base on Wed Aug 24 09:28:29 2022
+# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
+# Finished Make data base on Mon Aug 29 09:46:29 2022
 
  
