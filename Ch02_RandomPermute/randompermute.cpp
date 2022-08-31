@@ -77,10 +77,10 @@ int main() {
 	// permutation_tally[3] counts number of occurrences of {2,3,1}
 	// permutation_tally[4] counts number of occurrences of {3,1,2}
 	// permutation_tally[5] counts number of occurrences of {3,2,1}
-	std::vector<int> permutation_tally {0, 0, 0, 0, 0, 0};  // Zero all counters
+	std::vector<int> permutation_tally{0, 0, 0, 0, 0, 0};  // Zero all counters
 
 	// original always holds the vector {1,2,3}
-	const std::vector<int> original {1, 2, 3};
+	const std::vector<int> original{1, 2, 3};
 
 	// working holds a copy of original is gets permuted and tallied
 	std::vector<int> working;
