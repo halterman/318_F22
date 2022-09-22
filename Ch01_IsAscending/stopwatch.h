@@ -26,7 +26,7 @@ public:
     // Has no effect if the stopwatch is not currently running.
     // The timing may be resumed via the start method without
     // losing any time accumulated while the stopwatch has been 
-    // running.
+    // stopped.
     // Client must call reset on the stopwatch to begin a 
     // a new timing. 
     void stop();
