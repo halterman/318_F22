@@ -29,6 +29,11 @@ void show_trunks(Trunk *p) {
 }
 
 
+// Type T must be a pointer to a struct or class
+// the last a printable data member and members 
+// left and right that are same type as T.
+// You may need to adapt the code here based on the
+// specifics of your tree node type.
 template <typename T>
 void print_tree(T root, Trunk *prev, bool is_left) {
     if (root) {
@@ -54,8 +59,3 @@ void print_tree(T root, Trunk *prev, bool is_left) {
     }
 }
 
-//// Function to test the correctness of the constraints specified
-//// by the is_node comcept.
-////template <is_node T>
-//void test_concepts(is_node auto *p [[maybe_unused]]) {
-//}
