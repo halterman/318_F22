@@ -30,8 +30,9 @@ void show_trunks(Trunk *p) {
 
 
 // Type T must be a pointer to a struct or class
-// the last a printable data member and members 
-// left and right that are same type as T.
+// with a printable public member named data and 
+// public members named  left and right that have 
+// same type as T.
 // You may need to adapt the code here based on the
 // specifics of your tree node type.
 template <typename T>
