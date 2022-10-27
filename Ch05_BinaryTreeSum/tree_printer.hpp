@@ -57,6 +57,7 @@ void print_tree(T root, Trunk *prev, bool is_left) {
         }
         trunk->str = CONNECTOR;
         print_tree(root->left, trunk, false);
+        delete trunk;
     }
 }
 
